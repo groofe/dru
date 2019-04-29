@@ -1,3 +1,9 @@
+<style type="text/css">
+  html {
+   font-family: serif;
+  }
+</style>
+
 Awoke.
 
 No time.
