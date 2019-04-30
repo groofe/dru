@@ -1,8 +1,9 @@
 html, body {
   width: 100%;
   font-family: courier, serif;
+  font-size: 1.15em;
 }
 
 p.line {
- padding: 10px; 
+ padding: 20rx 10rx; 
 }
