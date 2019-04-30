@@ -1,7 +1,9 @@
 function run() {
   var bodyElem = document.querySelector('body')
   if (bodyElem) {
-    bodyElem.innerHTML = bodyElem.innerHTML.split('\n')
+    bodyElem.
+    bodyElem.innerHTML = bodyElem.innerHTML
+      .split('\n')
       .map(line => `<p class="line">${line}</p>`).join('\n')
   }
 }
