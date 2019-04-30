@@ -2,7 +2,7 @@ html, body {
   display: flex;
   flex-direction: column;
   font-family: courier, serif;
-  font-size: 1.15em;
+  font-size: 1em;
   background-color: #1c1818;
   color: #d6d5d5;
 }
