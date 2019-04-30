@@ -1,6 +1,8 @@
 function run() {
   var bodyElem = document.querySelector('body');
-  bodyElem.innerHTML = bodyElem.innerHTML.split('\n').map(l => `<p>${l}</p>`).join('\n');
+  if (bodyElen) {
+    bodyElem.innerHTML = bodyElem.innerHTML.split('\n').map(l => `<p>${l}</p>`).join('\n'); 
+  }
 }
 
 window.onload = function() {
