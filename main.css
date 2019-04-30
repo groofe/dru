@@ -1,10 +1,32 @@
 html, body {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   font-family: courier, serif;
   font-size: 1.15em;
-  padding: 15px;
+  background-color: #1c1818;
+  color: #d6d5d5;
 }
 
-p.line {
- padding: 20px 10px; 
+a {
+  color: #d6d5d5;
+  opacity: 0.5;
+}
+a:hover {
+  opacity: 1;
+}
+
+body {
+  padding-left: 15px;
+}
+
+.footer {
+  padding-bottom: 20px;
+}
+
+.ch {
+  margin: 15px 0;
+}
+
+.line {
+  margin: 10px;
 }
