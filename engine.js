@@ -3,4 +3,6 @@ function run() {
   bodyElem.innerHTML = bodyElem.innerHTML.split('\n').map(l => `<p>${l}</p>`).join('\n');
 }
 
-run();
+window.onload = function() {
+  run(); 
+}
