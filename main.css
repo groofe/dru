@@ -2,8 +2,9 @@ html, body {
   width: 100%;
   font-family: courier, serif;
   font-size: 1.15em;
+  padding: 15px;
 }
 
 p.line {
- padding: 20rx 10rx; 
+ padding: 20px 10px; 
 }
