@@ -1,10 +1,11 @@
 function run() {
-  var bodyElem = document.querySelector('body');
+  var bodyElem = document.querySelector('body')
   if (bodyElen) {
-    bodyElem.innerHTML = bodyElem.innerHTML.split('\n').map(l => `<p>${l}</p>`).join('\n'); 
+    bodyElem.innerHTML = bodyElem.innerHTML.split('\n')
+      .map(line => `<p class="line">${line}</p>`).join('\n')
   }
 }
 
 window.onload = function() {
-  run(); 
+  run()
 }
