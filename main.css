@@ -2,3 +2,7 @@ html, body {
   width: 100%;
   font-family: courier, serif;
 }
+
+p.line {
+ padding: 10px; 
+}
