@@ -1,11 +1,11 @@
 const SITE_MAP = [
   {
     title: 'begin',
-    src: 'begin'
+    src: '1'
   },
   {
     title: 'transend',
-    src: 'transend'
+    src: '2'
   }
 ]
 const CHAPTER_DIR = './ch'
@@ -47,9 +47,9 @@ const renderFooter = function(elem) {
 
   let nextLink;
   if (nextPage) {
-    nextLink = `<a href="${nextPage.src}${FILE_EXTENSION}">${nextPage.title}</a>`
+    nextLink = `<a class="line" href="${nextPage.src}${FILE_EXTENSION}">>></a>`
   }
-  const indexLink = `<a href="${`${'.'.repeat(CHAPTER_DIR.split('/').length)}/index.html`}">take me back</a>`
+  const indexLink = `<a class="line" href="${`${'.'.repeat(CHAPTER_DIR.split('/').length)}/index.html`}">return</a>`
 
   elem.innerHTML = elem.innerHTML.concat(`
     <div class="footer">

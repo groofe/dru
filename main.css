@@ -2,9 +2,10 @@ html, body {
   display: flex;
   flex-direction: column;
   font-family: courier, serif;
-  font-size: 1em;
   background-color: #1c1818;
+  font-size: 1em;
   color: #d6d5d5;
+  letter-spacing: 0px;
 }
 
 a {
